@@ -1,5 +1,11 @@
 module.exports = {
-  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  purge: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+    "./product/**/*.{js,ts,jsx,tsx}",
+    "./modal/**/*.{js,ts,jsx,tsx}",
+    "./cart/**/*.{js,ts,jsx,tsx}",
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     gradientColorStops: (theme) => ({
